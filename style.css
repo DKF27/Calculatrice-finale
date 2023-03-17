@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(85, 85, 199) ;
+}
+
+.grid-screen {
+    display: grid;
+    grid-column: 1/5;
+    background-color: black;
+}
+
+.effaceur {
+    display: grid;
+    grid-column: 1/3;
+}
+
+.supprime {
+    display: grid;
+    grid-column: 3/5;
+}
+
+.grid-chiffre {
+    display: grid;
+}
+
+.grid-operateur {
+    display: grid;
+}
+
+.grid-ecran {
+    display: grid;
+    grid-column: 1/5;
+    background-color: rgb(158, 150, 150);
+}
+
+.grid-main {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(6,80px);
+}
+
+
+.grid-main button{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgb(158,158,158);
+}
+
+.grid-main button:hover{
+    background-color: rgb(200, 190, 241);
+}
